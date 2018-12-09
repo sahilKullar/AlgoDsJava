@@ -48,12 +48,12 @@ public class ReverseString {
             reverseString.push(ch);
         }
 
-        String resultedSring = "";
+        String resultedString = "";
         while (!reverseString.isEmpty()) {
             char ch = reverseString.pop();
-            resultedSring = resultedSring + ch;
+            resultedString = resultedString + ch;
         }
-        return resultedSring;
+        return resultedString;
     }
 
     public static void main(String[] args) {
